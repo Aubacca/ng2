@@ -1,4 +1,13 @@
 <h1>{{title}}</h1>
-<h2>{{hero.name}} details!</h2>
-<div><label>id: </label>{{hero.id}}</div>
-<div><label>name: </label>{{hero.name}}</div>
+<h2>My Heroes</h2>
+
+<hr>
+
+<nav>
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
+
+<hr>
+
+<router-outlet></router-outlet>
