@@ -2,3 +2,7 @@
 <div class="grid grid-pad">
   <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-4">{{hero.name}}</a>
 </div>
+
+<hr>
+
+<hero-search></hero-search>
